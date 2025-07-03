@@ -1,8 +1,10 @@
 import Section_1 from "./components/sections/Section_1";
 import DesktopNavigation from "./navigation/Desktop";
+import Section_2 from "./components/sections/Section_2";
+import Location from "./components/locations/Location";
 
 import "./App.css";
-import Location from "./components/locations/Location";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       </div>
       <Section_1 />
       <Location />
+      <Section_2 />
+      <Footer />
     </div>
   );
 }

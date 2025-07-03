@@ -12,9 +12,9 @@ export default function Section_1() {
       <div className={styles.section_1_content}>
         <div className={styles.info}>
           <Information />
-          <Important />
+          <Guide />
         </div>
-        <Guide />
+        <Important />
       </div>
     </div>
   );

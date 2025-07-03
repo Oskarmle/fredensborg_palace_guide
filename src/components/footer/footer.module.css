@@ -1,0 +1,34 @@
+footer {
+  background: var(--dark_blue);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  color: var(--white);
+  text-align: left;
+  font-family: var(--font_text);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.headline {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.text {
+  margin: 0;
+  font-weight: 200;
+}

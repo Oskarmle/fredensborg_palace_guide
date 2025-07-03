@@ -8,6 +8,9 @@ export default function Important() {
         Please send a text to confirm you participate, as there are limited
         spaces available (max. 18 participants).
       </p>
+      <p className={styles.important_text}>
+        Provisions are made for illness and other unforeseen situations.
+      </p>
     </div>
   );
 }

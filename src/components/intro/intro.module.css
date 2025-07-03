@@ -2,6 +2,9 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+  width: 90%;
+  padding-left: 25px;
+  justify-content: center;
 }
 
 .intro {
@@ -15,5 +18,6 @@
   font-size: var(--text_big);
   font-family: var(--font_text);
   font-weight: 300;
+  width: 100%;
   margin: 0;
 }
