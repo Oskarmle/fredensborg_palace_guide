@@ -31,3 +31,20 @@
   border-radius: 15px;
   margin-bottom: 20px;
 }
+
+/************* Mobile styling  *************/
+@media screen and (max-width: 680px) {
+  .gallery_headline {
+    text-align: left;
+    font-size: var(--h2);
+    font-family: var(--font_headlines);
+  }
+
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery_image {
+    width: 100%;
+  }
+}

@@ -53,8 +53,41 @@ h2 {
   margin: 0;
 }
 
+/************* Tablet styling  *************/
 @media screen and (min-width: 780px) and (max-width: 1000px) {
   .location_container {
     height: 250px;
+  }
+}
+
+/************* Mobile styling  *************/
+@media screen and (max-width: 680px) {
+  .content {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .location_container {
+    height: 250px;
+  }
+
+  .text {
+    text-align: center;
+    width: 100%;
+  }
+
+  ul {
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+  }
+
+  h2 {
+    text-align: center;
   }
 }

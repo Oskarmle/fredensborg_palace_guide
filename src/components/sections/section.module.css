@@ -55,3 +55,27 @@
     width: 100%;
   }
 }
+
+/************* Tablet styling  *************/
+@media screen and (min-width: 680px) and (max-width: 1000px) {
+}
+
+/************* Mobile styling  *************/
+@media screen and (max-width: 680px) {
+  .section_1_container {
+    gap: 20px;
+    width: 90%;
+  }
+
+  .info {
+    flex-direction: column;
+  }
+
+  .headline {
+    text-align: left;
+  }
+
+  .section_2_container {
+   gap: 10px;
+  }
+}

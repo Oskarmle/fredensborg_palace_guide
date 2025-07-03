@@ -22,5 +22,24 @@
   margin: 0;
 }
 
-@media screen and (min-width: 780px) and (max-width: 1000px) {
+/************* Tablet styling  *************/
+@media screen and (min-width: 680px) and (max-width: 1000px) {
+  .intro_container {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/************* Mobile styling  *************/
+@media screen and (max-width: 680px) {
+  .intro_container {
+    width: 100%;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .intro {
+    line-height: 1.2;
+    text-align: left;
+  }
 }

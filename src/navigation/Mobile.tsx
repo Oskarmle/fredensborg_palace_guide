@@ -4,6 +4,7 @@ import "./mobile.css";
 export default function MobileNavigation() {
   return (
     <Menu>
+      <h2 className="menu-title">Menu</h2>
       <a href="#Information">Information</a>
       <a href="#Locations">Locations</a>
       <a href="#Special_Agreements">Special Agreements</a>

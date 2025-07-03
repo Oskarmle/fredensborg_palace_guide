@@ -27,6 +27,12 @@
   text-align: center;
 }
 
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -53,6 +59,9 @@ body {
   height: 750px;
   width: 100%;
   padding-top: 1px;
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .headline_container {
@@ -73,7 +82,7 @@ body {
 }
 
 /************* Tablet styling  *************/
-@media screen and (min-width: 780px) and (max-width: 1000px) {
+@media screen and (min-width: 680px) and (max-width: 1000px) {
   :root {
     /* Font sizes */
     --h1: 45px;
@@ -85,21 +94,43 @@ body {
   }
 
   .app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     max-width: 1000px;
-    height: 100%;
     gap: 20px;
   }
 
   .background {
-    background-image: url("./assets/palace.jpg");
-    top: 0;
-    background-size: cover;
+    aspect-ratio: 16 / 9;
     height: 500px;
-    width: 100%;
-    padding-top: 1px;
+    background-position: center top;
+  }
+}
+
+/************* Mobile styling  *************/
+@media screen and (max-width: 680px) {
+  :root {
+    /* Font sizes */
+    --h1: 25px;
+    --h2: 25px;
+    --h3: 15px;
+    --text_big: 22px;
+    --text_medium: 18px;
+    --text_small: 15px;
+  }
+
+  .app {
+    max-width: 680px;
+    gap: 20px;
+  }
+
+  .background {
+    aspect-ratio: 16 / 9;
+    height: 350px;
+    background-position: center top;
+  }
+
+  .headline_container {
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 70px;
   }
 }

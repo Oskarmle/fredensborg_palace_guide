@@ -8,7 +8,7 @@
 }
 
 .bm-burger-bars {
-  background: #373a47;
+  background: var(--dark_blue);
 }
 
 .bm-cross-button {
@@ -17,11 +17,11 @@
 }
 
 .bm-cross {
-  background: #bdc3c7;
+  background: var(--light_blue);
 }
 
 .bm-menu {
-  background: #ffffff;
+  background: var(--dark_blue);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -29,12 +29,23 @@
 .bm-menu a {
   display: block;
   padding: 0.5rem 0;
-  color: #333;
+  color: var(--light_blue);
   text-decoration: none;
+  text-align: left;
+  font-size: var(--text_big);
+  font-family: var(--font_text);
 }
 
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-title {
+  color: var(--light_blue);
+  font-size: var(--text_big);
+  font-family: var(--font_text);
+  margin-bottom: 30px;
+  text-align: left;
 }
 
 /************* Desktop navigation *************/

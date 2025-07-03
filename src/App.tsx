@@ -9,11 +9,11 @@ import Footer from "./components/footer/Footer";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 800);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 680);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 800);
+      setIsMobile(window.innerWidth < 680);
     };
 
     window.addEventListener("resize", handleResize);
