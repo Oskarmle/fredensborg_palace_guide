@@ -1,4 +1,6 @@
 import * as LucideIcons from "lucide-react";
+import type { LucideProps } from "lucide-react";
+import type { ComponentType } from "react";
 
 import styles from "./information.module.css";
 
@@ -10,7 +12,7 @@ type Info_box_props = {
 
 export default function Info_box({ icon, title, text }: Info_box_props) {
   const IconComponent =
-    LucideIcons[icon as keyof typeof LucideIcons] ?? LucideIcons.Tag;
+    LucideIcons[icon as keyof typeof LucideIcons] as ComponentType<LucideProps>;
 
   return (
     <div className={styles.info_box_container}>
