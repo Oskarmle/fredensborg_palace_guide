@@ -4,7 +4,7 @@ import styles from "./section.module.css";
 
 export default function Section_2() {
   return (
-    <div className={styles.section_2_container}>
+    <div className={styles.section_2_container} id="special-agreements">
       <h2 className={styles.headline}>Special Agreements</h2>
       <p className={styles.text}>
         Are you an English or Danish speaking group, you may contact the guide

@@ -28,7 +28,7 @@ export default function Information() {
   ];
 
   return (
-    <div className={styles.information_container}>
+    <div className={styles.information_container} id="information">
       <div>
         {infoBoxProps1.map((props, index) => (
           <Info_box

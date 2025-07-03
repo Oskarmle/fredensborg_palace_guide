@@ -2,7 +2,7 @@ import styles from "./locations.module.css";
 
 export default function Location() {
   return (
-    <div className={styles.location_container}>
+    <div className={styles.location_container} id="locations">
       <div className={styles.headline}>
         <h2>Locations</h2>
       </div>

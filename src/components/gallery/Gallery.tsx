@@ -12,7 +12,7 @@ export default function Gallery() {
   const images = [buildings1, buildings2, lake, pond, statues, water];
 
   return (
-    <div className={styles.gallery_container}>
+    <div className={styles.gallery_container} id="gallery">
       <h2 className={styles.gallery_headline}>Gallery</h2>
       <p className={styles.gallery_text}>
         Experience a preview of the tour as we walk together through the

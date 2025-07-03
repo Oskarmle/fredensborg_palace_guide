@@ -2,7 +2,7 @@ import styles from "./download.module.css";
 
 export default function Download() {
   return (
-    <div className={styles.download_container}>
+    <div className={styles.download_container} id="handout-and-map">
       <h3 className={styles.download_headline}>
         Download the map and handout here
       </h3>
