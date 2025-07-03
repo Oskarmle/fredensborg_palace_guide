@@ -53,7 +53,6 @@ body {
   height: 750px;
   width: 100%;
   padding-top: 1px;
-  /* position: absolute; */
 }
 
 .headline_container {
@@ -71,4 +70,36 @@ body {
   margin: 0;
   text-align: left;
   line-height: 1;
+}
+
+/************* Tablet styling  *************/
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  :root {
+    /* Font sizes */
+    --h1: 45px;
+    --h2: 35px;
+    --h3: 25px;
+    --text_big: 25px;
+    --text_medium: 20px;
+    --text_small: 15px;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .background {
+    background-image: url("./assets/palace.jpg");
+    top: 0;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding-top: 1px;
+  }
 }

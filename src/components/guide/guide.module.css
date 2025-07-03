@@ -1,4 +1,5 @@
 .guide_container {
+  height: 100%;
   width: 50%;
   background: var(--light_brown);
   border-radius: 15px;
@@ -16,7 +17,19 @@
 
 .guide_name {
   font-family: var(--font_text);
-  font-size: var(--text_small);
+  font-size: var(--text_medium);
   margin: 0;
   padding: 10px;
+}
+
+/************* Tablet styling  *************/
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  .guide_name {
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .guide_img {
+    margin: 10px;
+  }
 }

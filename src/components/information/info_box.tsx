@@ -14,7 +14,7 @@ export default function Info_box({ icon, title, text }: Info_box_props) {
 
   return (
     <div className={styles.info_box_container}>
-      <IconComponent size={58} color="var(--dark_blue)" />
+      <IconComponent className={styles.icon} color="var(--dark_blue)" />
       <div>
         <h3 className={styles.info_title}>{title}</h3>
         <p className={styles.info_text}>{text}</p>

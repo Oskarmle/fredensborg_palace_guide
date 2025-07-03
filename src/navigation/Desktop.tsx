@@ -1,31 +1,31 @@
-import styles from "./nav.module.css";
+import "./mobile.css";
 
 export default function DesktopNavigation() {
   return (
-    <nav className={styles.navBox}>
-      <ul className={styles.navList}>
-        <li className={styles.listItem}>
-          <button about="" className={styles.listButton}>
+    <nav className="navBox">
+      <ul className="navList">
+        <li className="listItem">
+          <button about="" className="listButton">
             Information
           </button>
         </li>
-        <li className={styles.listItem}>
-          <button about="" className={styles.listButton}>
+        <li className="listItem">
+          <button about="" className="listButton">
             Locations
           </button>
         </li>
-        <li className={styles.listItem}>
-          <button about="" className={styles.listButton}>
+        <li className="listItem">
+          <button about="" className="listButton">
             Special Agreements
           </button>
         </li>
-        <li className={styles.listItem}>
-          <button about="" className={styles.listButton}>
+        <li className="listItem">
+          <button about="" className="listButton">
             Handout and map
           </button>
         </li>
-        <li className={styles.listItem}>
-          <button about="" className={styles.listButton}>
+        <li className="listItem">
+          <button about="" className="listButton">
             Gallery
           </button>
         </li>
