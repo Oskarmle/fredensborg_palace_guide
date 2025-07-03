@@ -1,0 +1,54 @@
+.location_container {
+  background-image: url("../../assets/lake_slim.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  font-family: var(--font_text);
+  font-size: var(--text_big);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  color: var(--light_blue);
+  gap: 20px;
+  text-align: center;
+
+  position: relative;
+}
+
+.location_container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 13, 43, 0.46);
+}
+
+.location_container > * {
+  z-index: 2;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.headline {
+  width: 60%;
+  margin: 0;
+  font-weight: 400;
+}
+
+.text,
+ul {
+  margin: 0;
+  width: 40%;
+  text-align: left;
+}
+
+h2 {
+  text-align: left;
+  margin: 0;
+}

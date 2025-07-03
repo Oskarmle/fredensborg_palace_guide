@@ -1,0 +1,26 @@
+.navList {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.navList {
+  list-style: none;
+}
+
+.listButton {
+  background: transparent;
+  border: none;
+  color: var(--dark_blue);
+  font-size: var(--text_small);
+  font-family: var(--font_text);
+
+  /* Animation */
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.listButton:hover {
+  cursor: pointer;
+  border-bottom: 1px solid var(--dark_blue);
+}

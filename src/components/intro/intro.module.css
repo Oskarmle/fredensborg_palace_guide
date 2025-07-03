@@ -1,0 +1,19 @@
+.intro_container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.intro {
+  font-size: var(--h2);
+  font-family: var(--font_headlines);
+  font-weight: 500;
+  margin: 0;
+}
+
+.intro_text {
+  font-size: var(--text_big);
+  font-family: var(--font_text);
+  font-weight: 300;
+  margin: 0;
+}

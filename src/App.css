@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inconsolata:wght@200..900&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  /* Colors */
+  --light_brown: #f0e4da;
+  --dark_brown: #a96c3d;
+  --light_blue: #d4e9ef;
+  --dark_blue: #050d2b;
+  --white: #f3f3f3;
+
+  /* Fonts */
+  --font_headlines: "Inknut Antiqua", serif;
+  --font_text: "Encode Sans Semi Condensed", sans-serif;
+
+  /* Font sizes */
+  --h1: 65px;
+  --h2: 35px;
+  --text_big: 30px;
+  --text_small: 20px;
+}
+
+#root {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  background: var(--white);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  height: 100%;
+  gap: 40px;
+}
+
+.background {
+  background-image: url("./assets/palace.jpg");
+  top: 0;
+  background-size: cover;
+  height: 750px;
+  width: 100%;
+  padding-top: 1px;
+  /* position: absolute; */
+}
+
+.headline_container {
+  display: flex;
+  width: 80%;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.headline {
+  font-size: var(--h1);
+  font-family: var(--font_headlines);
+  font-weight: 100;
+  color: var(--dark_blue);
+  margin: 0;
+  text-align: left;
+  line-height: 1;
+}
