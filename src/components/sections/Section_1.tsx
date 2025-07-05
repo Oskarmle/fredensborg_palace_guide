@@ -7,15 +7,15 @@ import styles from "./section.module.css";
 
 export default function Section_1() {
   return (
-    <div className={styles.section_1_container}>
+    <section className={styles.section_1_container}>
       <Intro />
-      <div className={styles.section_1_content}>
+      <main className={styles.section_1_content}>
         <div className={styles.info}>
           <Information />
           <Guide />
         </div>
         <Important />
-      </div>
-    </div>
+      </main>
+    </section>
   );
 }
