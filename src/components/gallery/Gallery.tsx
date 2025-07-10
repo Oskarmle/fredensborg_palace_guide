@@ -12,24 +12,31 @@ export default function Gallery() {
   const images = [
     {
       src: buildings1,
-      alt: "Historic palace building with detailed architecture",
+      alt: "Historic Fredensborg Palace building with detailed architecture",
     },
     {
       src: buildings2,
-      alt: "Another view of Fredensborg Palace from the garden",
+      alt: "Another view of Fredensborg Palace from the royal garden",
     },
-    { src: lake, alt: "Scenic lake surrounded by lush greenery" },
-    { src: pond, alt: "Quiet pond in the Fredensborg palace Garden" },
-    { src: statues, alt: "Classical statues found in the Palace Garden" },
-    { src: water, alt: "A view of the Esrum lake close to the Palace" },
+    {
+      src: lake,
+      alt: "Scenic lake near Fredensborg Palace surrounded by lush greenery",
+    },
+    { src: pond, alt: "Quiet pond in the Fredensborg Palace Garden" },
+    {
+      src: statues,
+      alt: "Classical statues found in the Fredensborg Palace Garden",
+    },
+    { src: water, alt: "A view of Esrum lake close to Fredensborg Palace" },
   ];
 
   return (
     <div className={styles.gallery_container} id="gallery">
       <h2 className={styles.gallery_headline}>Gallery</h2>
       <p className={styles.gallery_text}>
-        Experience a preview of the tour as we walk together through the
-        beautiful Fredensborg Palace Garden.
+        Get a glimpse of the private guided tour experience as you explore the
+        stunning Fredensborg Palace Garden, royal architecture, and beautiful
+        natural surroundings with your local guide.
       </p>
       <div className={styles.gallery}>
         {images.map((img, index) => (
