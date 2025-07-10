@@ -54,7 +54,7 @@ body {
 }
 
 .background {
-  background-image: url("./assets/palace.jpg");
+  background-image: url("./assets/palace.webp");
   top: 0;
   background-size: cover;
   height: 750px;

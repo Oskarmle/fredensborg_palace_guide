@@ -1,12 +1,12 @@
 import styles from "./gallary.module.css";
 
 // Images
-import buildings1 from "../../assets/buildings.jpg";
-import buildings2 from "../../assets/buildings2.jpg";
-import lake from "../../assets/lake.jpeg";
-import pond from "../../assets/pond.jpg";
-import statues from "../../assets/statues.jpg";
-import water from "../../assets/water.jpg";
+import buildings1 from "../../assets/buildings.webp";
+import buildings2 from "../../assets/buildings2.webp";
+import lake from "../../assets/lake.webp";
+import pond from "../../assets/pond.webp";
+import statues from "../../assets/statues.webp";
+import water from "../../assets/water.webp";
 
 export default function Gallery() {
   const images = [

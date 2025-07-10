@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <summary className={styles.intro_container}>
       <h2 className={styles.intro}>
-        Private Guided Tour of Fredensborg Palace (Fredensborg Slot)
+        Private Guided Tour of Fredensborg Palace
       </h2>
       <p className={styles.intro_text}>
         Experience a unique Fredensborg Palace private guided tour with a

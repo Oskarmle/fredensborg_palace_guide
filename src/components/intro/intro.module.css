@@ -12,6 +12,7 @@
   font-family: var(--font_headlines);
   font-weight: 500;
   margin: 0;
+  line-height: 1.5;
 }
 
 .intro_text {

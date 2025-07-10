@@ -1,5 +1,5 @@
 import styles from "./guide.module.css";
-import guideImage from "../../assets/guide.jpg";
+import guideImage from "../../assets/guide.webp";
 
 export default function Guide() {
   return (
