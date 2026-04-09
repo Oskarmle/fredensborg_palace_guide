@@ -11,7 +11,7 @@ export default function Information() {
     {
       icon: "Footprints",
       title: "The walk",
-      text: "150 minutes walk and talk, and 9 story-telling stops. Distance is around 5 km.",
+      text: "120 minutes walk and talk, and 9 story-telling stops. Distance is around 4 km.",
     },
   ];
   const infoBoxProps2 = [
