@@ -7,6 +7,8 @@ import lake from "../../assets/lake.webp";
 import pond from "../../assets/pond.webp";
 import statues from "../../assets/statues.webp";
 import water from "../../assets/water.webp";
+import sculpture1 from "../../assets/sculpture1.png";
+import sculpture2 from "../../assets/Sculpture2.png";
 
 export default function Gallery() {
   const images = [
@@ -27,6 +29,9 @@ export default function Gallery() {
       src: statues,
       alt: "Classical statues found in the Fredensborg Palace Garden",
     },
+    { src: water, alt: "A view of Esrum lake close to Fredensborg Palace" },
+    { src: sculpture1, alt: "A view of one of the sculptures in the Palace Garden" },
+    { src: sculpture2, alt: "A view of one of the sculptures in the Palace Garden" },
     { src: water, alt: "A view of Esrum lake close to Fredensborg Palace" },
   ];
 
