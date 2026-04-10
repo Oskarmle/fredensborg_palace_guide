@@ -8,7 +8,7 @@ import pond from "../../assets/pond.webp";
 import statues from "../../assets/statues.webp";
 import water from "../../assets/water.webp";
 import sculpture1 from "../../assets/sculpture1.png";
-import sculpture2 from "../../assets/Sculpture2.png";
+import sculpture2 from "../../assets/sculpture2.png";
 
 export default function Gallery() {
   const images = [
