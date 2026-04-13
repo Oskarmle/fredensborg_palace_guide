@@ -18,7 +18,7 @@ export default function Information() {
     {
       icon: "CalendarRange",
       title: "Period",
-      text: "Saturday from 10.15 AM to 12.45 PM in the period from mid June to mid August e.g. 14 June to 16. August (incl.)",
+      text: "Saturday from 10.15 AM to 12.15 PM in the period from mid June to mid August e.g. 14 June to 16. August (incl.)",
     },
     {
       icon: "MapPin",
